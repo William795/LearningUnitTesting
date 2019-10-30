@@ -15,6 +15,8 @@
 		92FF8119236A23CE0084E9A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FF8117236A23CE0084E9A2 /* LaunchScreen.storyboard */; };
 		92FF8124236A23CE0084E9A2 /* LearningUnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF8123236A23CE0084E9A2 /* LearningUnitTestingTests.swift */; };
 		92FF812F236A23CE0084E9A2 /* LearningUnitTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF812E236A23CE0084E9A2 /* LearningUnitTestingUITests.swift */; };
+		92FF813D236A26950084E9A2 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF813C236A26950084E9A2 /* Student.swift */; };
+		92FF813F236A2F570084E9A2 /* StudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF813E236A2F570084E9A2 /* StudentTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		92FF812A236A23CE0084E9A2 /* LearningUnitTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningUnitTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FF812E236A23CE0084E9A2 /* LearningUnitTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningUnitTestingUITests.swift; sourceTree = "<group>"; };
 		92FF8130236A23CE0084E9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FF813C236A26950084E9A2 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		92FF813E236A2F570084E9A2 /* StudentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				92FF8117236A23CE0084E9A2 /* LaunchScreen.storyboard */,
 				92FF811A236A23CE0084E9A2 /* Info.plist */,
 				92FF8114236A23CE0084E9A2 /* Preview Content */,
+				92FF813C236A26950084E9A2 /* Student.swift */,
 			);
 			path = LearningUnitTesting;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			children = (
 				92FF8123236A23CE0084E9A2 /* LearningUnitTestingTests.swift */,
 				92FF8125236A23CE0084E9A2 /* Info.plist */,
+				92FF813E236A2F570084E9A2 /* StudentTests.swift */,
 			);
 			path = LearningUnitTestingTests;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 				92FF810D236A23C80084E9A2 /* AppDelegate.swift in Sources */,
 				92FF810F236A23C80084E9A2 /* SceneDelegate.swift in Sources */,
 				92FF8111236A23C80084E9A2 /* ContentView.swift in Sources */,
+				92FF813D236A26950084E9A2 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FF8124236A23CE0084E9A2 /* LearningUnitTestingTests.swift in Sources */,
+				92FF813F236A2F570084E9A2 /* StudentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
